@@ -223,7 +223,3 @@ MLOps концепции - описание DVC, MLflow и других инст
 Автор: Ирина
 GitHub: palkyskalky-cell
 
-Лицензия
-MIT License
-
-Request Body:
