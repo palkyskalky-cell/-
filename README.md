@@ -157,20 +157,20 @@ curl -X GET http://localhost:5000/health
 Prediction:
 curl -X POST http://localhost:5000/predict -H "Content-Type: application/json" -d "{\"features\": {\"LIMIT_BAL\": 50000, \"SEX\": 1, \"EDUCATION\": 2, \"MARRIAGE\": 1, \"AGE\": 35, \"PAY_0\": 0, \"PAY_2\": 0, \"PAY_3\": 0, \"PAY_4\": 0, \"PAY_5\": 0, \"PAY_6\": 0, \"BILL_AMT1\": 3000, \"BILL_AMT2\": 2500, \"BILL_AMT3\": 2200, \"BILL_AMT4\": 2000, \"BILL_AMT5\": 1800, \"BILL_AMT6\": 1500, \"PAY_AMT1\": 500, \"PAY_AMT2\": 400, \"PAY_AMT3\": 350, \"PAY_AMT4\": 300, \"PAY_AMT5\": 250, \"PAY_AMT6\": 200}}"
 Демонстрация работы
-1. Обучение модели
-https://screenshots/training_results.png
+### 1. Обучение модели
+![Результаты обучения модели](screenshots/training_results.png)
 
-2. Проверка здоровья сервиса (health check)
-https://screenshots/health_check.png
+### 2. Проверка здоровья сервиса (health check)
+![Health check](screenshots/health_check.png)
 
-3. Пример предсказания
-https://screenshots/prediction_response.png
+### 3. Пример предсказания
+![Пример предсказания](screenshots/prediction_response.png)
 
-4. A/B тестирование: версия v1
-https://screenshots/ab_testing_v1.png
+### 4. A/B тестирование: версия v1
+![A/B тест v1](screenshots/ab_testing_v1.png)
 
-5. A/B тестирование: версия v2
-https://screenshots/ab_testing_v2.png
+### 5. A/B тестирование: версия v2
+![A/B тест v2](screenshots/ab_testing_v2.png)
 
 A/B Тестирование
 Проект поддерживает A/B тестирование для сравнения двух версий модели. Подробности в AB_TEST_PLAN.md.
@@ -218,20 +218,7 @@ CI/CD Pipeline
 План A/B тестирования - детальный план проведения A/B теста
 
 MLOps концепции - описание DVC, MLflow и других инструментов
-### 1. Обучение модели
-![Результаты обучения модели](screenshots/training_results.png)
 
-### 2. Проверка здоровья сервиса (health check)
-![Health check](screenshots/health_check.png)
-
-### 3. Пример предсказания
-![Пример предсказания](screenshots/prediction_response.png)
-
-### 4. A/B тестирование: версия v1
-![A/B тест v1](screenshots/ab_testing_v1.png)
-
-### 5. A/B тестирование: версия v2
-![A/B тест v2](screenshots/ab_testing_v2.png)
 
 Контакты
 Автор: Ирина
