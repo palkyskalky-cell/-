@@ -1,0 +1,18 @@
+# docker-compose.yml
+
+version: '3.8'
+
+services:
+  credit-card-prediction:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - MODEL_PATH=models/model_v1.pkl
+      - MODEL_VERSION=v1
+    volumes:
+      - ./models:/app/models
+    restart: unless-stopped
