@@ -218,6 +218,20 @@ CI/CD Pipeline
 План A/B тестирования - детальный план проведения A/B теста
 
 MLOps концепции - описание DVC, MLflow и других инструментов
+### 1. Обучение модели
+![Результаты обучения модели](screenshots/training_results.png)
+
+### 2. Проверка здоровья сервиса (health check)
+![Health check](screenshots/health_check.png)
+
+### 3. Пример предсказания
+![Пример предсказания](screenshots/prediction_response.png)
+
+### 4. A/B тестирование: версия v1
+![A/B тест v1](screenshots/ab_testing_v1.png)
+
+### 5. A/B тестирование: версия v2
+![A/B тест v2](screenshots/ab_testing_v2.png)
 
 Контакты
 Автор: Ирина
